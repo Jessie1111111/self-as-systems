@@ -1,0 +1,65 @@
+body{
+    background-color: rgb(171, 94, 94);
+    text-align: center;
+    cursor: url('/image/cursor.png') 0 0, auto;
+    
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    height: 90vh; 
+}
+.box1 {
+    flex: 1;  
+}
+.head1{
+    color: aliceblue;
+    font-size: 25px;
+    font-family: "Lucida Handwriting";
+}
+
+.time{
+    color: aliceblue;
+    font-size: 25px;
+    font-family: "Lucida Handwriting";
+}
+.randomLink{
+    font-size: 35px;
+    color:#ffffff;
+    font-family: cursive;
+    text-decoration: none;
+
+}
+.randomLink:hover {
+    color: rgb(255, 141, 141);
+}
+.randomDescription{
+    font-size: 35px;
+    color:rgb(253, 215, 215);
+    font-family: cursive;
+
+}
+.randomBtn{
+    color: rgb(63, 63, 63);
+    background-color: rgb(255, 183, 183);
+    border-color: rgb(110, 110, 110);
+    border-radius: 10px;
+    font-size: 30px;
+    font-family: "Lucida Handwriting";
+}
+.randomBtn:hover {
+    color: rgb(255, 255, 255);
+}
+#background-video {
+    position: fixed;
+    top:0;
+    left: 0;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -1000;
+    object-fit: cover;
+    filter: brightness(0%);
+    filter: grayscale(80%);
+}
